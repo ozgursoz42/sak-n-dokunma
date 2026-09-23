@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@keyframes wiggle {
+  0%, 100% { transform: translateX(0) rotate(0deg); }
+  20% { transform: translateX(-8px) rotate(-1.5deg); }
+  40% { transform: translateX(8px) rotate(1.5deg); }
+  60% { transform: translateX(-6px) rotate(-1deg); }
+  80% { transform: translateX(6px) rotate(1deg); }
+}
+
+.animate-wiggle {
+  animation: wiggle 0.2s ease-in-out infinite;
+}

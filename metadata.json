@@ -1,0 +1,6 @@
+{
+  "name": "SAKIN DOKUNMA!",
+  "description": "Refleks, kandırmaca ve hızlanan kurallarla dolu bağımlılık yapan 2D mobil oyun!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
